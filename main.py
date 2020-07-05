@@ -1,3 +1,25 @@
+# A program that loads data by extracting from json file, represent each sentence with a list of words
+# in our models vocabulary, where Each position in the list will represent a word from our vocabulary.
+# If the position in the list is a 1 then that will mean that the word exists in our sentence, and
+# if it is a 0 then the word is not present.
+#
+# Then we develop a model, with neural network with two hidden layers. The goal of our network will be
+# to look at a bag of words and give a class that they belong to (one of our tags from the json file).
+# We use tensorflow tflearn to build and connect our neural network.
+#
+# Then we do training and saving the model that we developed. We "fit" our data to the model, and save it.
+# We can load the model without training again if we already processed and saved.
+#
+# Then we finally use the model. We want to generate a response to any sentence the user types in. Again,
+# we take the input as a bag of words, and it generates a list of probabilities for all of our tags.
+
+# – Get some input from the user
+# – Convert it to a bag of words
+# – Get a prediction from the model
+# – Find the most probable class
+# – Pick a response from that class
+
+
 import nltk
 nltk.download('punkt')
 from nltk.stem.lancaster import LancasterStemmer
