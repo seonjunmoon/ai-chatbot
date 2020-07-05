@@ -1,0 +1,69 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Whats up", "Hey"],
+         "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Bye, Have a good day!", "Thank you for visiting!", "Goodbye!", "See you again!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 22 years old!", "I'm 22 years old!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "Tell me your name", "what's your name?"],
+         "responses": ["My name is Seonjun.", "I'm Seonjun!"],
+         "context_set": ""
+        },
+        {"tag": "phone",
+         "patterns": ["what's your number?", "what is your phone number?", "what is your contact?",
+                      "phone number?"],
+         "responses": ["My phone number is 425-974-0000", "Call me 425-974-0000"],
+         "context_set": ""
+        },
+        {"tag": "email",
+         "patterns": ["what is your email?", "email address?", "do you have email", "email"],
+         "responses": ["My email address is seonjun@uw.edu", "seonjun@uw.edu"],
+         "context_set": ""
+        },
+        {"tag": "home",
+         "patterns": ["where do you live?", "where is your home", "location", "home", "where are you from",
+                      "where you live", "hometown", "Location", "where are you at", "where do you stay"],
+         "responses": ["I live in Seattle, but I'm originally from South Korea."],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours", "what time you open",
+                      "when do you open", "business hours"],
+         "responses": ["We are open 8am-5pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "love",
+         "patterns": ["do you like me", "do you love me", "you like me", "you love me", "I love you", "I like you",
+                      "love", "like", "love you"],
+         "responses": ["Yes, I love you!"],
+         "context_set": ""
+        },
+        {"tag": "school",
+         "patterns": ["where do you go to school", "which school do you go", "school", "university", "which school",
+                      "which university do you go"],
+         "responses": ["I go to University of Washington in Seattle."],
+         "context_set": ""
+        },
+        {"tag": "job",
+         "patterns": ["where do you work", "what is you job", "job", "where you work"],
+         "responses": ["I work at F5 as a software engineer."],
+         "context_set": ""
+        },
+        {"tag": "buy",
+         "patterns": ["can I buy something", "what do you sell", "how much is it", "food", "I'd like to buy something",
+                      "can I get something", "I want to order", "menu", "I'd like to order", "can I get menu please"],
+         "responses": ["We have various burgers. More on the menu on our website!"],
+         "context_set": ""
+        }
+   ]
+}
